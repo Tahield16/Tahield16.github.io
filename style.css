@@ -26,6 +26,10 @@
 
 
 }
+.imagen{
+    width: 25rem;
+    
+}
 .opciones{
     justify-content: flex-end;
 }
