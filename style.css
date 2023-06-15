@@ -1,8 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
 .navbar{
-    background-color: rgba(215, 81, 81, 0.843);
+    
     text-align: left;
+    width: 100%;
+    height:30%;
+    display: inline-flex;
 }
 .titulo{
     text-align: center;
     
+}
+.menu{
+    background-color: grey;
+}
+#pixeles{
+    width:45px;
+    height: 85px;
+    margin: 0 auto;
+
+
+
+}
+.opciones{
+    justify-content: flex-end;
 }
