@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    color: rgba(160, 158, 158, 0.678);
 }
 
 .navbar{
@@ -11,12 +12,13 @@
     height:30%;
     display: inline-flex;
 }
+
 .titulo{
     text-align: center;
     
 }
 .menu{
-    background-color: grey;
+    background:linear-gradient(red,rgb(20, 14, 14), rgb(52, 32, 32));
 }
 #pixeles{
     width:45px;
@@ -31,5 +33,21 @@
     
 }
 .opciones{
-    justify-content: flex-end;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.nav-op{
+    width: 56%;
+    margin-left:10%; 
+}
+#nav-titulo{
+    margin-left:10%;
+
+}
+.titulo{
+    text-shadow: 3px 2px 2px rgba(210,0,0,0.65);
 }
