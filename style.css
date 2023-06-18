@@ -14,15 +14,23 @@ body{
     width: 100%;
     height:30%;
     display: inline-flex;
+    margin-bottom:5%;
+}
+.menu{
+    position:fixed;
+    margin-top:0;
+    width: 100%;
+    height:15%; 
+    background:linear-gradient(red,rgb(20, 14, 14), rgb(52, 32, 32));
+    height:14%;
 }
 
 .titulo{
     text-align: center;
     
 }
-.menu{
-    background:linear-gradient(red,rgb(20, 14, 14), rgb(52, 32, 32));
-}
+
+   
 #pixeles{
     width:45px;
     height: 85px;
@@ -32,7 +40,7 @@ body{
 
 }
 .imagen{
-    width: 25rem;
+    width: 15rem;
     
 }
 ul >li{
@@ -71,6 +79,7 @@ p{
 
 
 .contenido{
+    padding-top: 15%;
     margin-left: 2.5%;
     width: 95%;
     height: 100%;
@@ -100,8 +109,27 @@ footer> h1,h2{
 }
 #soyhijo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 }
 a{
     color:black;
+}
+.container{
+    width: 100%;
+    display:flex;
+    max-width: 1100px;
+}
+.card{
+    width:100%;
+    margin: 20px;
+    border-radius:6px;
+    overflow:hidden;
+    background-color: rgba(105, 42, 15, 0.594);;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0,2);
+    cursor:default;
+
+}
+.card>figure{
+    margin-left: 17%;
 }
